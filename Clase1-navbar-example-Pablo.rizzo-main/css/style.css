@@ -11,15 +11,15 @@ html{
 }
 
 body{
-    background: rgb(40, 106, 119);
+    background: rgb(58, 66, 73);
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: antiquewhite;
-    background: linear-gradient(90deg,#fff ,#000);
+    background: linear-gradient(90deg,#fff ,rgb(32, 116, 165));
+    padding: 0 25px 0 25px;
 }
 
 .container__logo{   
@@ -32,7 +32,10 @@ ul{
     margin: 5px;
 }
 ul li{
-    padding: 5px;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 15px;
     color: #fff;
 }
 
@@ -66,8 +69,6 @@ ul a{
 .container-home{
     position: relative;
     height: 100vh;
-    
-    
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -103,6 +104,7 @@ h1{
 }
 
 .container-about{
+    background: rgb(40, 106, 119);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -122,6 +124,7 @@ h1{
 }
 
 .container-proyect{
+    background: rgb(92, 144, 155);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,6 +177,7 @@ h1{
 }
 
 .container-contact{
+    background: rgb(143, 215, 230);
     height: 70vh;
     display: flex;
     justify-content: start;
