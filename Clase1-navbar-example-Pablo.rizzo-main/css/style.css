@@ -108,7 +108,22 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
     border-bottom: 2px solid #000;
+}
+
+.container-about h2{
+    color: goldenrod;
+    font-size: 3rem;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin: 0 0 20px 0;
+}
+
+.container-about div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .container-about img{
